@@ -56,13 +56,16 @@
         "citric"
       ]
     },
-    "isFeacture": {
+    "isFeatured": {
       "type": "boolean"
     },
     "category": {
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::category.category"
+    },
+    "quantity": {
+      "type": "biginteger"
     }
   }
 }
